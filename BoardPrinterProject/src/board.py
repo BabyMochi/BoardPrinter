@@ -2,7 +2,7 @@
 from typing import *
 
 class Board(object):
-    def __init__(self,name:str,row:int,col:int,fill:str,change:list)->None:
+    def __init__(self,name:str,row:int,col:int,fill:str,change:list=0)->None:
         """
         Param name
         Param row
@@ -46,7 +46,6 @@ class Board(object):
         xpos = self.change[2]
         self.listofboard[ypos][xpos]=char
 
-        showboard()
 
     def showboard(self):
         print(self._name)
