@@ -44,6 +44,8 @@ class Board(object):
         char=self._change[0]
         ypos=self.change[1]
         xpos = self.change[2]
+        self.listofboard[ypos][xpos]=char
+
         showboard()
 
     def showboard(self):
