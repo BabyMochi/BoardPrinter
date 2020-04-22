@@ -3,17 +3,17 @@ from src import board
 class BoardManager(object):
     def initialboard(self):
 
-    def choice
+    def choice(self):
 
-    def fillspot
+    def fillspot(self):
 
-    def erasespot
+    def erasespot(self):
 
-    def switchboard
+    def switchboard(self):
 
-    def createboard
+    def createboard(self):
 
-    def quit
+    def quit(self):
 
-    def saveboardnames
+    def saveboardnames(self):
 
